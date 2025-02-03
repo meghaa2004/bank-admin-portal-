@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: #AAC7D8;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+    background-color: #DFEBF6;
+}
+h1 {
+    font-size: 70px;
+    background-color: #DFEBF6;
+}
+a {
+    text-decoration: none;
+    background-color: #DFEBF6;
+    padding: 10px;
+    border-radius: 10px 10px;
+}
+button {
+    background-color: #DFEBF6;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 10px;
+}
+
+/* New styles for the account table */
+.account-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.account-table th, .account-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.account-table th {
+    background-color: #AAC7D8;
+    color: black;
+}
+
+.account-table tr:hover {
+    background-color: #DFEBF6;
+}
