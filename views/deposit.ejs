@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%- include('nav')-%>
+
+    <h1>Enter amount to be deposited </h1>
+    <form action="depositAmt" method="post">
+        <h4>Account no :</h4> <input type="number" name="accNo"> <br><br>
+        <h4>Amount to deposit:</h4><input type="number" name="deposit" > <br><br>
+        <button type="submit">Submit </button>
+    </form>
+</body>
+</html>
